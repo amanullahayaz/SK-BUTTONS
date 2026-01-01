@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* BODY */
+body {
+  font-family: "Inter", sans-serif;
+  background: #f4f6f8;
+  color: #1a1a1a;
+  line-height: 1.75;
+}
+
+/* CONTAINER */
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 80px 20px;
+}
+
+/* HEADINGS */
+h1, h2, h3 {
+  font-family: "Playfair Display", serif;
+  color: #111;
+}
+
+h1 {
+  font-size: clamp(2.6rem, 5vw, 4rem);
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+h2 {
+  font-size: clamp(2rem, 4vw, 2.6rem);
+  margin-bottom: 22px;
+}
+
+h3 {
+  font-size: 1.3rem;
+  margin-bottom: 12px;
+}
+
+/* PARAGRAPH */
+p {
+  font-size: 16.5px;
+  color: #555;
+  margin-bottom: 16px;
+}
+
+/* LIST */
+ul {
+  margin-top: 16px;
+  padding-left: 18px;
+}
+
+li {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #444;
+}
+a:hover {
+  opacity: 0.85;
+}
+
+nav a:hover {
+  transform: translateY(-1px);
+}
+a[href*="wa.me"]:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(37, 211, 102, 0.35);
+}
+
+
+/* FADE IN ANIMATION */
+.fade-in {
+  animation: fadeUp 0.8s ease forwards;
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(25px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
