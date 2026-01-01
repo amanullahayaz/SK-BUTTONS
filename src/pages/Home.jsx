@@ -233,6 +233,7 @@ hero: {
     fontSize: "clamp(2.5rem, 5vw, 4rem)",
     fontWeight: "700",
     letterSpacing: "1px",
+    color : "white",
   },
   heroText: {
     margin: "20px auto 35px",
