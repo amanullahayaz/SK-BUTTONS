@@ -1,5 +1,5 @@
 import Header from "../components/Header";
-
+import Footer from "../components/footer";
 import p1 from "../assets/images/p1.jpg";
 import p2 from "../assets/images/p2.jpg";
 import p3 from "../assets/images/p3.jpg";
@@ -94,9 +94,7 @@ const Products = () => {
           ))}
         </div>
       </section>
-        <div style={styles.copyright}>
-    ©{new Date().getFullYear()} SK Buttons. All Rights Reserved.
-  </div>
+          <Footer/>
     </>
   );
 };

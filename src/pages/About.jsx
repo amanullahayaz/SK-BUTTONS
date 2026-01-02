@@ -1,5 +1,5 @@
 import Header from "../components/Header";
-
+import Footer from "../components/footer";
 const About = () => {
   return (
     <>
@@ -109,36 +109,7 @@ const About = () => {
         </div>
       </section>
 
-      {/* FOOTER */}
-      <footer style={styles.footer}>
-        <div className="container" style={styles.footerGrid}>
-          <div>
-            <h3 style={styles.footerHeading}>SK Buttons</h3>
-            <p>
-              Trusted manufacturer and supplier of premium buttons and garment
-              accessories since 1985.
-            </p>
-          </div>
-
-          <div>
-            <h3 style={styles.footerHeading}>Contact</h3>
-            <p>📍 Govindpuri, New Delhi – 110019</p>
-            <p>✉️ skbuttons1977@gmail.com</p>
-            <p>📞 +91 9811146602 / 9810948641</p>
-          </div>
-
-          <div>
-            <h3 style={styles.footerHeading}>Business</h3>
-            <p>✔ Manufacturing & Wholesale</p>
-            <p>✔ Customized Orders</p>
-            <p>✔ Bulk Supply</p>
-          </div>
-        </div>
-
-        <div style={styles.copyright}>
-          © {new Date().getFullYear()} SK Buttons. All Rights Reserved.
-        </div>
-      </footer>
+      <Footer/>
     </>
   );
 };
@@ -175,27 +146,4 @@ const styles = {
     background: "#fff",
   },
 
-  footer: {
-    background: "#000",
-    color: "#bbb",
-    padding: "60px 0 25px",
-  },
-
-  footerGrid: {
-    display: "grid",
-    gridTemplateColumns: "repeat(auto-fit, minmax(240px, 1fr))",
-    gap: "28px",
-  },
-
-  footerHeading: {
-    color: "#fff",
-    marginBottom: "10px",
-  },
-
-  copyright: {
-    textAlign: "center",
-    marginTop: "30px",
-    color: "#777",
-    fontSize: "14px",
-  },
 };
