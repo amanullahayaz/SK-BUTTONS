@@ -17,7 +17,7 @@ const products = [
   { img: p2, name: "Plastic Buttons" },
   { img: p3, name: "Jeans Buttons" },
   { img: p4, name: "Fancy Buttons" },
-  { img: p5, name: "Belt Buckles" },
+  { img: p5, name: "Wooden Buttons" },
   { img: p6, name: "Snap Buttons" },
   { img: p7, name: "Coat Buttons" },
   { img: p8, name: "Kurta Buttons" },
@@ -106,89 +106,94 @@ export default Products;
 /* ===================== STYLES ===================== */
 
 const styles = {
+  /* ===== SECTION ===== */
   dealSection: {
     background: "linear-gradient(180deg, #f7f8fa, #ffffff)",
-    padding: "90px 20px",
-  },
-    copyright: {
-    textAlign: "center",
-    background:"black",
-    marginTop: "40px",
-    color: "#777",
-    fontSize: "16px",
+    padding: "64px 16px",
   },
 
   sectionTitle: {
     textAlign: "center",
-    fontSize: "36px",
+    fontSize: "clamp(22px, 6vw, 36px)",
     fontWeight: "700",
-    marginBottom: "12px",
+    marginBottom: "10px",
   },
 
   subText: {
     textAlign: "center",
     color: "#666",
-    marginBottom: "45px",
-    fontSize: "16px",
+    marginBottom: "36px",
+    fontSize: "14.5px",
   },
 
+  /* ===== WHAT WE DEAL GRID ===== */
   dealGrid: {
     display: "grid",
-    gridTemplateColumns: "repeat(auto-fit, minmax(220px, 1fr))",
-    gap: "24px",
+    gridTemplateColumns: "repeat(auto-fit, minmax(160px, 1fr))",
+    gap: "16px",
   },
 
   dealCard: {
     background: "#fff",
-    padding: "24px",
-    borderRadius: "18px",
+    padding: "16px",
+    borderRadius: "14px",
     textAlign: "center",
     fontWeight: "500",
-    fontSize: "14.5px",
-    boxShadow: "0 12px 35px rgba(0,0,0,0.08)",
-    transition: "0.3s ease",
+    fontSize: "13.5px",
+    boxShadow: "0 8px 24px rgba(0,0,0,0.08)",
   },
 
+  /* ===== PRODUCT SECTION ===== */
   wrapper: {
-    maxWidth: "1300px",
+    maxWidth: "1200px",
     margin: "auto",
-    padding: "100px 20px",
+    padding: "72px 16px",
   },
 
   subtitle: {
     textAlign: "center",
     color: "#666",
-    marginBottom: "60px",
+    marginBottom: "40px",
+    fontSize: "14.5px",
   },
 
   grid: {
     display: "grid",
-    gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))",
-    gap: "34px",
+    gridTemplateColumns: "repeat(auto-fit, minmax(180px, 1fr))",
+    gap: "20px",
   },
 
   card: {
     background: "#fff",
-    borderRadius: "18px",
+    borderRadius: "16px",
     overflow: "hidden",
-    boxShadow: "0 15px 40px rgba(0,0,0,0.1)",
-    transition: "0.35s ease",
+    boxShadow: "0 12px 32px rgba(0,0,0,0.1)",
+    transition: "0.3s ease",
     cursor: "pointer",
   },
 
   image: {
     width: "100%",
-    height: "260px",
+    height: "200px", // 🔑 MOBILE OPTIMIZED
     objectFit: "cover",
   },
 
   cardBody: {
-    padding: "22px",
+    padding: "16px",
     textAlign: "center",
   },
 
   cardTitle: {
-    fontSize: "18px",
+    fontSize: "15.5px",
     fontWeight: "600",
+  },
+
+  /* ===== FOOTER ===== */
+  copyright: {
+    textAlign: "center",
+    background: "#000",
+    padding: "18px 10px",
+    color: "#999",
+    fontSize: "13.5px",
   },
 };
