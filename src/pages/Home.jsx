@@ -116,7 +116,7 @@ const Home = () => {
           Partner with SK Buttons for reliable, durable & stylish products.
         </p>
         <SKButton
-          text="View Product Catalog"
+          text="View Product Catalogue"
           onClick={() => navigate("/products")}
         />
       </section>
