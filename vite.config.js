@@ -3,5 +3,5 @@ import react from "@vitejs/plugin-react";
 
 export default defineConfig({
   plugins: [react()],
-  base: "/SK-BUTTONS/",
+  base: "/",   // 🔥 THIS LINE IS IMPORTANT
 });
