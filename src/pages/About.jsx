@@ -41,7 +41,7 @@ const About = () => {
       {/* MISSION */}
       <section>
         <div className="container">
-          <h2>Our Missions</h2>
+          <h2>Our Mission</h2>
           <ul>
             <li>To manufacture premium-quality buttons and accessories</li>
             <li>To continuously innovate in designs and materials</li>
