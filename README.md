@@ -1,4 +1,4 @@
-check the deployed website : https://amanullahayaz.github.io/SK-BUTTONS/
+check the deployed website : https://skbuttons.co.in
 
 # React + Vite
 
