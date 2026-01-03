@@ -48,7 +48,7 @@ const Products = () => {
       {/* WHAT WE DEAL IN */}
       <section style={styles.dealSection}>
         <div className="container">
-          <h2 style={styles.sectionTitle}>What We Deal In</h2>
+          <h2 style={styles.sectionTitle}>What We Deal In?</h2>
           <p style={styles.subText}>
             Complete range of buttons and garment accessories
           </p>
