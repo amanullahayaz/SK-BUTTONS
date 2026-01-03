@@ -9,7 +9,7 @@ const About = () => {
       {/* WHO WE ARE */}
       <section>
         <div className="container">
-          <h2>Who We Are</h2>
+          <h2>Who We Are?</h2>
           <p>
             Founded in <strong>1985</strong>, <strong>SK Buttons</strong> is a
             trusted manufacturer and supplier of premium buttons and garment
@@ -98,7 +98,7 @@ const About = () => {
       {/* WHY CHOOSE US */}
       <section style={styles.altSection}>
         <div className="container">
-          <h2>Why Choose SK Buttons</h2>
+          <h2>Why Choose SK Buttons?</h2>
           <ul>
             <li>40+ years of manufacturing experience</li>
             <li>Strict quality control and premium materials</li>
